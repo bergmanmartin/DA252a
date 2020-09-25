@@ -45,7 +45,7 @@ public class ArrayUtil {
 
     public static void main(String[] args) {
         MergeSort m = new MergeSort();
-        int [] a = createShuffeled(10000000000000);
+        int [] a = createShuffeled(100000000);
         m.sort(a);
         System.out.println(Arrays.toString(a));
 
