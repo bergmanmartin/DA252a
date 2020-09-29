@@ -13,8 +13,8 @@ public class TestInsertionSort {
         int runs = 5;
         
         System.out.println("Unordered:");
-        report(IntSortTest.testSort(new MergeSort(), firstN, runs, false), firstN);
+        report(IntSortTest.testSort(new Quicksort(), firstN, runs, false), firstN);
         System.out.println("\nOrdered:");
-        report(IntSortTest.testSort(new MergeSort(), firstN, runs, true), firstN);
+        report(IntSortTest.testSort(new Quicksort(), firstN, runs, true), firstN);
     }
 }

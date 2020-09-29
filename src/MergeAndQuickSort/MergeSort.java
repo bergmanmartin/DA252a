@@ -10,7 +10,6 @@ public class MergeSort implements IntSorter {
         int N = a.length;
         int[] aux = new int[a.length];
         sort(a, 0, N-1, aux);
-
     }
 
     private static void sort(int[] a, int lo, int hi, int[] aux){
