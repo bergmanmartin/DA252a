@@ -1,25 +1,30 @@
 package MergeAndQuickSort;
 
-import java.lang.reflect.Array;
-
-public class Quicksort implements IntSorter {
+public class QuicksortVariant implements IntSorter {
 
     @Override
     public void sort(int[] a) {
-        int N = a.length;
+
         ArrayUtil.shuffle(a);
-        sort(a, 0, N-1);
+        sort(a, 0, a.length-1);
 
     }
     public static void sort(int[] aux, int lo, int hi) {
 
-         if (hi <= lo) {
-            return;
+        if (lo < hi) {
+
+            if (hi + lo <= 100000) {
+                InsertionSorter sorter = new InsertionSorter();
+                sorter.sort(aux, lo, hi);
+                return;
+            } else {
+                int j = partition(aux, lo, hi);
+                sort(aux, lo, j - 1);
+                sort(aux, j + 1, hi);
+            }
         }
-        int j = partition(aux, lo, hi);
-        sort(aux, lo, j-1);
-        sort(aux, j+1, hi);
     }
+
 
     /**
      * Omarrangerar arrayen så att några villkor upphålls.
@@ -29,11 +34,11 @@ public class Quicksort implements IntSorter {
      * @return
      */
     private static int partition(int[] a, int lo, int hi) {
-        boolean running = true;
+
         int i = lo; int j = hi+1;
         int v = a[lo];
 
-        while (running) {
+        while (true) {
             while (less(a[++i], v)) {
 
                 if (i == hi) {
@@ -64,6 +69,5 @@ public class Quicksort implements IntSorter {
     private static boolean less(Comparable v , Comparable w) {
         return v.compareTo(w) < 0;
     }
-
 
 }
