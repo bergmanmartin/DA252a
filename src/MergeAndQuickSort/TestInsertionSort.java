@@ -14,6 +14,7 @@ public class TestInsertionSort {
         
         System.out.println("Unordered:");
         report(IntSortTest.testSort(new InsertionSorter(), firstN, runs, false), firstN);
+        
         System.out.println("\nOrdered:");
         report(IntSortTest.testSort(new InsertionSorter(), firstN, runs, true), firstN);
     }

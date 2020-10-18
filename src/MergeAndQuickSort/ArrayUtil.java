@@ -45,12 +45,11 @@ public class ArrayUtil {
 
     public static void main(String[] args) {
         MergeSort m = new MergeSort();
-        int [] a = createShuffeled(100000000);
-        m.sort(a);
+        int [] a = createShuffeled(10000);
+        //m.sort(a);
+        InsertionSorter is = new InsertionSorter();
+        is.sort(a);
         System.out.println(Arrays.toString(a));
-
-
-
 
     }
 }

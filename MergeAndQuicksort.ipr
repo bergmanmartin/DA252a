@@ -14,4 +14,15 @@
   <component name="ProjectRootManager" version="2" languageLevel="JDK_13" default="true" project-jdk-name="13.0.2" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
+  <component name="libraryTable">
+    <library name="algs4">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/Downloads/algs4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/Downloads/algs4.jar!/" />
+      </SOURCES>
+    </library>
+  </component>
 </project>
