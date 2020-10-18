@@ -135,8 +135,21 @@
   <component name="ProjectRootManager" version="2" languageLevel="JDK_13" default="true" project-jdk-name="13.0.2" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
+<<<<<<< HEAD
+  <component name="libraryTable">
+    <library name="algs4">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/Downloads/algs4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/Downloads/algs4.jar!/" />
+      </SOURCES>
+    </library>
+=======
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+>>>>>>> 5f9017e9f7b209323fe05f2987e0d8b62d09b7bb
   </component>
   <component name="libraryTable">
     <library name="algs4">
