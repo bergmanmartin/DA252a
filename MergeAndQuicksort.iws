@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99b4cc96-42ad-4782-b6e5-afc662bdc425" name="Default Changelist" comment="" />
+    <list default="true" id="99b4cc96-42ad-4782-b6e5-afc662bdc425" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/MergeAndQuickSort/MergeSortVariant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MergeAndQuickSort/QuicksortVariant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MergeAndQuicksort.iws" beforeDir="false" afterPath="$PROJECT_DIR$/MergeAndQuicksort.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DA252a/MergeAndQuickSort/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DA252a/MergeAndQuickSort/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DA252a/MergeAndQuickSort/Quicksort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DA252a/MergeAndQuickSort/Quicksort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DA252a/MergeAndQuickSort/TestSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DA252a/MergeAndQuickSort/TestSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MergeAndQuickSort/InsertionSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeAndQuickSort/InsertionSorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MergeAndQuickSort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeAndQuickSort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MergeAndQuickSort/Quicksort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeAndQuickSort/Quicksort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MergeAndQuickSort/TestSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeAndQuickSort/TestSort.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +25,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1hztSvhU9eWgJ7zLgGsukYzRGeI" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iH3WOCP9eHvCQbWBmvEh6ajmdo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +37,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+<<<<<<< HEAD
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -49,6 +65,13 @@
     </configuration>
     <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MergeAndQuickSort.MergeSort" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Application.TestSort">
+    <configuration name="TestInsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MergeAndQuickSort.TestInsertionSort" />
+>>>>>>> 5f9017e9f7b209323fe05f2987e0d8b62d09b7bb
       <module name="DA252a" />
       <extension name="coverage">
         <pattern>
@@ -60,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestInsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MergeAndQuickSort.TestInsertionSort" />
+    <configuration name="TestSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MergeAndQuickSort.TestSort" />
       <module name="DA252a" />
       <extension name="coverage">
         <pattern>
@@ -88,9 +111,13 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Application.WordSearch" />
         <item itemvalue="Application.ArrayUtil" />
         <item itemvalue="Application.MergeSort" />
+=======
+        <item itemvalue="Application.TestSort" />
+>>>>>>> 5f9017e9f7b209323fe05f2987e0d8b62d09b7bb
         <item itemvalue="Application.TestInsertionSort" />
       </list>
     </recent_temporary>
@@ -113,17 +140,18 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="99b4cc96-42ad-4782-b6e5-afc662bdc425" name="Default Changelist" comment="" />
-      <created>1601025751150</created>
+      <created>1601550720259</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1601025751150</updated>
+      <updated>1601550720259</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="146" key="#com.intellij.ide.util.MemberChooser" timestamp="1601033266338">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state x="721" y="155" key="#com.intellij.ide.util.MemberChooser" timestamp="1601558953935">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+<<<<<<< HEAD
     <state x="533" y="146" key="#com.intellij.ide.util.MemberChooser/0.23.1440.826@0.23.1440.826" timestamp="1601033266338" />
     <state width="993" height="195" key="GridCell.Tab.0.bottom" timestamp="1602920726388">
       <screen x="0" y="23" width="1440" height="826" />
@@ -157,5 +185,24 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="685" y="173" width="670" height="676" key="search.everywhere.popup/0.23.1440.826@0.23.1440.826" timestamp="1602920996612" />
+=======
+    <state x="721" y="155" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1601558953935" />
+    <state width="1867" height="244" key="GridCell.Tab.0.bottom" timestamp="1601630160738">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="244" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601630160738" />
+    <state width="1867" height="244" key="GridCell.Tab.0.center" timestamp="1601630160738">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="244" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601630160738" />
+    <state width="1867" height="244" key="GridCell.Tab.0.left" timestamp="1601630160738">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="244" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601630160738" />
+    <state width="1867" height="244" key="GridCell.Tab.0.right" timestamp="1601630160738">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="244" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601630160738" />
+>>>>>>> 5f9017e9f7b209323fe05f2987e0d8b62d09b7bb
   </component>
 </project>

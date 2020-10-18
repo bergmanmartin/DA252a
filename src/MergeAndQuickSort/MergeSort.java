@@ -10,13 +10,14 @@ public class MergeSort implements IntSorter {
         int N = a.length;
         int[] aux = new int[a.length];
         sort(a, 0, N-1, aux);
-
     }
 
     private static void sort(int[] a, int lo, int hi, int[] aux){
+
             if (hi <= lo) {
                 return;
             }
+
             int mid = lo + (hi - lo) /2;
 
             sort(a, lo, mid, aux); // Sorterar vänstra halvan mid är då högsta
@@ -34,28 +35,22 @@ public class MergeSort implements IntSorter {
      */
     private static void merge(int[] a, int lo, int mid, int hi, int[] aux) {
 
-       int i = lo, j = mid+1;
-       for (int k = lo; k <= hi; k++) {
-           aux[k] = a[k];
-       }
-       for (int k = lo; k <= hi; k++) {
-           if( i > mid) {
-               a[k] = aux[j++];
-           }
-           else if (j > hi) {
-               a[k] = aux[i++];
-           }
-           else if (aux[i] <= aux[j]) {
-               a[k] = aux[i++];
-           }
-           else {
-               a[k] = aux[j++];
-           }
-       }
+        int i = lo, j = mid + 1;
+        for (int k = lo; k <= hi; k++) {
+            aux[k] = a[k];
+        }
+        for (int k = lo; k <= hi; k++) {
+
+                if (i > mid) {
+                    a[k] = aux[j++];
+                } else if (j > hi) {
+                    a[k] = aux[i++];
+                } else if (aux[i] <= aux[j]) {
+                    a[k] = aux[i++];
+                } else {
+                    a[k] = aux[j++];
+                }
+            }
     }
 
-    public static void main(String[] args) {
-        int[] arr = {2, 4, 5, 1, 3, 6, 7, 5, 8};
-
-    }
 }

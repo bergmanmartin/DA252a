@@ -13,9 +13,13 @@ public class TestInsertionSort {
         int runs = 5;
         
         System.out.println("Unordered:");
+<<<<<<< HEAD
         report(IntSortTest.testSort(new InsertionSorter(), firstN, runs, false), firstN);
         
+=======
+        report(IntSortTest.testSort(new Quicksort(), firstN, runs, false), firstN);
+>>>>>>> 5f9017e9f7b209323fe05f2987e0d8b62d09b7bb
         System.out.println("\nOrdered:");
-        report(IntSortTest.testSort(new InsertionSorter(), firstN, runs, true), firstN);
+        report(IntSortTest.testSort(new Quicksort(), firstN, runs, true), firstN);
     }
 }

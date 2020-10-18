@@ -1,6 +1,5 @@
 package MergeAndQuickSort;
 
-import java.util.Arrays;
 import java.util.Random;
 
 public class ArrayUtil {
@@ -45,11 +44,17 @@ public class ArrayUtil {
 
     public static void main(String[] args) {
         MergeSort m = new MergeSort();
+<<<<<<< HEAD
         int [] a = createShuffeled(10000);
         //m.sort(a);
         InsertionSorter is = new InsertionSorter();
         is.sort(a);
         System.out.println(Arrays.toString(a));
 
+=======
+        int [] a = createShuffeled(1000);
+        m.sort(a);
+        System.out.println(a);
+>>>>>>> 5f9017e9f7b209323fe05f2987e0d8b62d09b7bb
     }
 }
